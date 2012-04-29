@@ -1,6 +1,6 @@
 // TODO:
 // - add an options page / popup to set theme for editing
-~function (doc, $, pollTimeout, editor, textarea, extension, extensions, undefined) {
+~function (doc, $, pollTimeout, editor, textarea, selectExtension, extensions, undefined) {
     textarea = $('.file-contents');
     selectExtension = $('.js-language-picker');
     // FIXME: doesn't CodeMirror accept extensions for modes?
