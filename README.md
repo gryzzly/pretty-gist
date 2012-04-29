@@ -1,3 +1,3 @@
-# CodeMirror = Awesome, github:gist = Awesome, github:gist + CodeMirror = Mega Awesome
+### github:gist + CodeMirror
 
 Several lines of JavaScript to tie Github's gists with CodeMirror editor.
