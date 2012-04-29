@@ -1,0 +1,15 @@
+{
+  "name": "Pretty Gist",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Highlighting the text area on gist.github.com",
+  "content_scripts": [{
+    "matches": ["*://gist.github.com/*"],
+    "css": ["lib/ambiance.css", "lib/codemirror.css"],
+    "js": ["lib/codemirror.js", "lib/parsedummy.js", "highlight.js"]
+  }],
+  "permissions": [
+    "https://gist.github.com/",
+    "http://gist.github.com/"
+  ]
+}
